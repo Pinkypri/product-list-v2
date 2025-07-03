@@ -12,7 +12,7 @@ const HomePage = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await fetch('https://product-list-v2-1zoq.vercel.app/api/products');
+      const response = await fetch('https://product-list-v2-1zoq.vercel.ap/api/products');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
