@@ -6,7 +6,7 @@ const ProductCard = ({ product, onAddToCart }) => {
       <img
         src={product.image}
         alt={product.name}
-        className="w-full h-100 object-fit rounded"
+        className="w-full h-70 object-fit rounded"
       />
       <h3 className="text-lg font-semibold mt-2">{product.name}</h3>
       <p className="text-gray-600 font-bold mt-1">${product.price}</p>
