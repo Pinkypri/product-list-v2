@@ -6,6 +6,7 @@ const products = [
     price: 499,
     image: "https://product-list-v2-1zoq.vercel.app/images/assortment-tumbler-with-copy-space.jpg"
   },
+  
   {
     id: 2,
     name: "Beach Skincare Kit",
